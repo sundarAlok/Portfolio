@@ -7,7 +7,8 @@ Showcasing my journey, skills, projects, certifications, and professional links 
 
 ## 🌟 Live Preview
 
-> **Visit:** *[Your Portfolio Link Here](https://github.com/sundarAlok/Portfolio)*
+> **Visit:** *[Your Portfolio Link Here](https://github.com/sundarAlok/Portfolio)* <br>
+> **Live:** *[Link](https://sundaralok.github.io/Portfolio/)*
 
 ---
 
@@ -91,5 +92,6 @@ All content, design, and code are proprietary and may not be reused or republish
 - All referenced logos and trademarks are property of their respective owners.
 
 ---
+
 
 > *Thank you for visiting  my portfolio!*
