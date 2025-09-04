@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alok Kumar Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">AKS</span>
+                <span class="logo-glow"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#blogs" class="nav-link">Blogs</a></li>
+                <li><a href="#professional-links" class="nav-link">Professional Links</a></li>
+                <li><a href="#social-links" class="nav-link">Social Links</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">Hello, I'm</div>
+                <h1 class="hero-title">
+                    <span class="name">Alok Kumar Singh,</span>
+                    <span class="title-glow"></span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typewriter" style="color: rgb(212, 212, 212);"></span>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('projects')">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('contact')">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-container">
+                    <img src="photo.jpg" alt="Alok Kumar Singh" class="hero-avatar">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-particles"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01</span>
+                About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description" style="text-align: justify;">
+                        I'm a passionate cybersecurity student focused on protecting digital systems and data.
+                        With expertise in ethical hacking, network security, and threat analysis, I create secure solutions
+                        that safeguard information and prevent cyber threats.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Security Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Months Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">Vulnerability Detection</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-controls">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span>about.js</span>
+                        </div>
+                        <div class="code-content">
+                            <pre><code>const developer = {
+    name: "Alok Kumar Singh",
+    role: "Cyber Security Enthusiast",
+    passion: ["Ethical Hacking", "Network Security",
+              "Threat Analysis"],
+    stack: ["Python", "Kali Linux", "Metasploit"],
+    status: "Available for hire"
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02</span>
+                Skills & Technologies
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-users"></i>
+                            <span>User Research</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cyber Security</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Penetration Testing</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-circle-nodes"></i>
+                            <span>Network Security</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fa-solid fa-eye"></i>
+                            <span>Nmap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>BurpSuite</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-wifi"></i>
+                            <span>Wireshark</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-circle-nodes"></i>
+                            <span>Metasploit</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="skill-category">
+                    <h3>Operating System</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Windows</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>Kali Linux</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-ubuntu"></i>
+                            <span>Ubuntu</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>MacOS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fa-solid fa-c"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-solid fa-r"></i>
+                            <span>R</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-square-js"></i>
+                            <span>Javascript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fa-brands fa-rust"></i>
+                            <span>Rust</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database Management</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Scripting & Automation</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Bash</span>
+                        </div>
+                        <!-- <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>PowerShell</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03</span>
+                Featured Projects
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Nmap Dashboard</h3>
+                        <a href="https://github.com/sundarAlok/Nmap-Dashboard-v1" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>A Python-based dashboard for visualizing Nmap network scans, providing interactive charts and detailed vulnerability analysis for cybersecurity professionals.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Nmap</span>
+                        <span class="tech-tag">Chart.js</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>THM Free Rooms Tracker</h3>
+                        <a href="https://github.com/sundarAlok/THM-Free-Rooms-Tracker" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>
+                        Python and HTML tool for listing all free TryHackMe rooms.<br>
+                        <b>V1:</b> User-friendly interface with local storage for progress tracking.<br>
+                        <b>V2:</b> Tracks solved rooms in a JSON file for organized lab management.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">BeautifulSoup</span>
+                        <span class="tech-tag">TryHackMe</span>
+                        <span class="tech-tag">Local Storage</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Portfolio Website</h3>
+                        <a href="https://github.com/sundarAlok/Portfolio" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>
+                        Responsive personal portfolio built with HTML, CSS, and JavaScript. Features animated backgrounds, interactive sections, and a modern UI to showcase cybersecurity projects, skills, and achievements.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Font Awesome</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Advanced Search Dork Generator</h3>
+                        <a href="https://github.com/sundarAlok/Advanced-Search-Dork-Generator" target="_blank" class="github-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <p>
+                        Python tool for generating advanced search engine dorks to help automate information gathering and reconnaissance for penetration testing and OSINT tasks.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OSINT</span>
+                        <span class="tech-tag">Reconnaissance</span>
+                        <span class="tech-tag">Google Dorking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04</span>
+                Experience
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Cyber Security Intern - InternPro</h3>
+                    <p>June 2025 - July 2025</p>
+                    <ul>
+                        <li>Developed an Nmap dashboard for visualizing network scans and enhancing threat detection.</li>
+                        <li>Demonstrated professionalism and teamwork while consistently meeting deadlines under the mentorship of Donesh Kumbhare.</li>
+                        <!-- <li>Documented and submitted detailed lab reports at key checkpoints.</li> -->
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Cyber Security Intern - Cyber Secured India</h3>
+                    <p>Sept 2024 - Nov 2024</p>
+                    <ul>
+                        <li>Performed hands-on cybersecurity labs using TryHackMe and HackTheBox.</li>
+                        <li>Completed OPSWAT cybersecurity certifications.</li>
+                        <li>Documented and submitted detailed lab reports at key checkpoints.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Cyber Security Intern - Coincent.ai</h3>
+                    <p>Aug 2024 - Sept 2024</p>
+                    <ul>
+                        <li>Conducted penetration testing using Linux-based tools in virtual machines.</li>
+                        <li>Simulated real-world cyberattacks by exploiting system vulnerabilities.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Blockpreneur - Software Technology Parks of India (STPI), Gurugram</h3>
+                    <p>June 2024 - Aug 2024</p>
+                    <ul>
+                        <li>Completed Blockchain Bootcamp by IDS and earned Hedera Developer Certification.</li>
+                        <li>Gained exposure to startup operations, legal frameworks, funding models, and fintech.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>Trainee & Intern - CDAC, Noida</h3>
+                    <p>June 2024 - Aug 2024</p>
+                    <ul>
+                        <li>Trained in Ethical Hacking & Penetration Testing with Linux tools.</li>
+                        <li>Final project: Developed Intrusion Detection System using Snort on Windows.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">05</span>
+                Certifications
+            </h2>
+            <ul class="certifications-list">
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.lxgezi_OZZ3d0MRGhTynsgHaFd?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Riskberg-logo" class="company-logo">
+                        <h3>ThunderCipher Conquest 2.0 - CTF</h3>
+                    </div>
+                    <p>RiskBerg Consulting, NorthCap University (30th Aug 2025)</p>
+                    <a href="https://drive.google.com/file/d/1PrGQtZQj7MA14yBJT2jldXs-RNDEhQq9/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-goog/events/gdg-logo_CsrJrVS.jpg" alt="GDG-logo" class="company-logo">
+                        <h3>Solution Challenge</h3>
+                    </div>
+                    <p>GDG & Hack2skill (2nd Aug 2025)</p>
+                    <a href="https://drive.google.com/file/d/1MfzLM_d_yomqGnB3sNmbmZSzgnW97E1H/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://philipcao.com/wp-content/uploads/2019/08/ec-council-logo.png" alt="EC-Council" class="company-logo">
+                        <h3>Certified Cybersecurity Technician (CCT)</h3>
+                    </div>
+                    <p>EC-Council (12th Jun 2025)</p>
+                    <a href="https://drive.google.com/file/d/15dsEH_YWGhFA2R_qRnRPCuFRavKvlc3o/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://th.bing.com/th/id/R.d21110a663d1637c8a7bffd865544afa?rik=VvnbxeHD2RTNTw&pid=ImgRaw&r=0" alt="Google" class="company-logo">
+                        <h3>Google Cloud Arcade Games</h3>
+                    </div>
+                    <p>Google (Apr, 2025 - May, 2025)</p>
+                    <a href="https://www.cloudskillsboost.google/public_profiles/8a5268af-a12c-4ec1-a034-bd8a8e86e862" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://yt3.ggpht.com/ytc/AMLnZu99J_SCLkJIGS83JLDuR92Res7ORYhWKw-X1fTc=s900-c-k-c0x00ffffff-no-rj" alt="Infosys-logo" class="company-logo">
+                        <h3>Technical, and Soft Skills Training</h3>
+                    </div>
+                    <p>Infosys Foundation, Aspire for Her - (Mar, 2025)</p>
+                    <a href="https://drive.google.com/file/d/1_tcZ0USjFLY2_CXRJ6qIeSZy_7kU9LoZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://wallpapercave.com/wp/wp4981187.png" alt="ISRO-logo" class="company-logo">
+                        <h3>Geo-data sharing and Cyber Security</h3>
+                    </div>
+                    <p>ISRO (Jan, 2025)</p>
+                    <a href="https://drive.google.com/file/d/1FfRthwSYf3EzoMyCGBKQHIv-va8r0_9R" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://thf.bing.com/th/id/OIP.2CtZT-QOENDXpbKxk0mqYwHaHc?w=162&h=180&c=7&r=0&o=5&cb=thfc1&dpr=1.1&pid=1.7" alt="Kurukshetra University logo" class="company-logo"><br>
+                        <h3>National Conference on Emerging <br>Micro / Nano-Electronics</h3>
+                    </div>
+                    <p>Kurukshetra University & Gurugram University (7th-8th Nov 2024)</p>
+                    <a href="https://drive.google.com/file/d/10hO2Aiyq_SGJZcRUCb-LnViubw52HbtX/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.ljagzxPatv1XbVKPPrTjYAHaGc?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="IDS Inc" class="company-logo">
+                        <h3>Blockchain Bootcamp</h3>
+                    </div>
+                    <p>IDS Inc, Hyperledger (Training Partner), BBN - (Aug, 2024)</p>
+                    <a href="https://drive.google.com/file/d/14R-YLs35xXR9f43HjyTUXrd7AEBb1ncK/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://envisionamerica.org/wp-content/uploads/2015/09/cisco-logo-800.png" alt="Cisco" class="company-logo">
+                        <h3>Introduction to Cyber Security</h3>
+                    </div>
+                    <p>CISCO Networking Academy (May, 2024)</p>
+                    <a href="https://drive.google.com/file/d/1ZZ_BHIsMd42En4kDqBktFs5Fr4Qtfdwy/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://1.bp.blogspot.com/-vGV606_boAA/XnOwJy8ychI/AAAAAAAA1Xs/--bQCi1HEaw20twUkwlavRNNvmC5c539wCLcBGAsYHQ/s1600/images%2B%252836%2529.jpeg" alt="Google" class="company-logo">
+                        <h3>TechFest 2024 Ideathon</h3>
+                    </div>
+                    <p>SGT University (28th-29th Mar 2024)</p>
+                    <a href="https://drive.google.com/file/d/111RNoGoVbvRwwwxRoSvP2fkIDpySEp5R/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/baxtskoldvhdksdlukkm" alt="GUVI" class="company-logo">
+                        <h3>Python Programming</h3>
+                    </div>
+                    <p>GUVI, Google (Education Partner), ISO 9001-27001 Certified - (Aug, 2023)</p>
+                    <a href="https://drive.google.com/file/d/10fi9_3CkVj4yJ5sBtuIPlL-s6s-Jylmo/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://prernaup.in/Content/Diksha/01.png" alt="Ministry of Education" class="company-logo">
+                        <h3>National Students Paryavaran Competition (NSPC-2023)</h3>
+                    </div>
+                    <p>Ministry of Education and Partners (June, 2023)</p>
+                    <a href="https://drive.google.com/file/d/1sFTrZJ24axyF7F_LyOPqnvVtwoSt-2x-/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+                <li class="certification-item">
+                    <div class="certification-header">
+                        <img src="https://coincent.ai/images/IIT_Roorkee.png" alt="Aries IIT" class="company-logo">
+                        <h3>Cyber Security and Ethical Hacking</h3>
+                    </div>
+                    <p>ArIES - IIT Roorkee, Coincent (Training Partner) (DEC, 2022 - FEB, 2023)</p>
+                    <a href="https://drive.google.com/file/d/1pkmdk0mjbjO746gZPASh1t9jdD9wU17o/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="view-cert-btn">View Certificate</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">06</span>
+                Blogs
+            </h2>
+            <div class="blog-list">
+                <article class="blog-post">
+                    <h3>No Blogs</h3>
+                    <p>Just for future use.</p>
+                    <a href="#blogs" target="_blank" class="view-blog-btn">
+                        <span>Dummy Button</span>
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Links Section -->
+    <section id="professional-links" class="professional-links">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">07</span>
+                Professional Links
+            </h2>
+            <div class="social-links-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-h-[400px] overflow-y-auto pr-2">
+                <a href="https://github.com/sundarAlok" target="_blank" rel="noopener noreferrer" class="social-link bg-github">
+                    <img src="https://avatars.githubusercontent.com/u/30886613?v=4?s=400" alt="Github" class="w-8 h-8 object-contain"/>
+                    <span>Github</span>
+                </a>
+                <a href="https://www.hackthebox.com" target="_blank" rel="noopener noreferrer" class="social-link bg-htb">
+                    <img src="https://www.svgrepo.com/download/331423/hack-the-box.svg" alt="HackTheBox" class="w-8 h-8 object-contain"/>
+                    <span>Hack The Box</span>
+                </a>
+                <a href="https://tryhackme.com/p/xNika" target="_blank" rel="noopener noreferrer" class="social-link bg-thm">
+                    <img src="https://assets.tryhackme.com/img/favicon.png" alt="TryHackMe" class="w-8 h-8 object-contain"/>
+                    <span>TryHackMe</span>
+                </a>
+                <a href="https://www.w3profile.com/sundarAlok/" target="_blank" rel="noopener noreferrer" class="social-link bg-w3school">
+                    <img src="https://img.wethrift.com/w3schools.jpg" alt="W3School" class="w-8 h-8 object-contain"/>
+                    <span>W3School</span>
+                </a>
+                <a href="https://www.duolingo.com/profile/Its_Prakash" target="_blank" rel="noopener noreferrer" class="social-link bg-duolingo">
+                    <img src="https://www.onlinepalette.com/wp-content/uploads/2021/07/Duolingo-App-icon.png" alt="Duolingo" class="w-8 h-8 object-contain"/>
+                    <span>Duolingo</span>
+                </a>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section id="social-links" class="social-links">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">08</span>
+                Social Links
+            </h2>
+            <div class="social-links-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-h-[400px] overflow-y-auto pr-2">
+                <a href="https://www.linkedin.com/in/alok-kumar-singh-3ab304261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="social-link bg-gradient-to-r from-blue-700 to-blue-500">
+                    <i class="fab fa-linkedin-in text-white text-2xl"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://www.instagram.com/lu.ffy2938/" target="_blank" rel="noopener noreferrer" class="social-link bg-gradient-to-r from-pink-600 to-pink-400">
+                    <i class="fab fa-instagram text-white text-2xl"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" class="social-link bg-gradient-to-r from-orange-700 to-orange-500">
+                    <i class="fab fa-reddit-alien text-white text-2xl"></i>
+                    <span>Reddit</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">09</span>
+                Get In Touch
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>alokkumarsinghnonmed2003@gmail.com</p>
+                        </div>
+                    </div>
+                    <!-- <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-1234567890</p>
+                        </div>
+                    </div> -->
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/sundarAlok</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/alok-kumar-singh-3ab304261</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" name="name" id="name" required>
+                        <div class="error-message" id="nameError"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" name="email" id="email" required>
+                        <div class="error-message" id="emailError"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Subject" name="subject" id="subject" required>
+                        <div class="error-message" id="subjectError"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" placeholder="Your Message" rows="5" name="message" id="message" required></textarea>
+                        <div class="error-message" id="messageError"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="captcha-row">
+                            <div class="captcha-container">
+                                <input type="checkbox" id="captcha" name="captcha" required>
+                                <label for="captcha">I'm not a robot</label>
+                            </div>
+                            <div class="math-captcha">
+                                <div class="math-problem" id="mathProblem"></div>
+                                <input type="text" class="form-input" placeholder="Answer" id="mathAnswer" required>
+                                <button type="button" class="refresh-math-btn" id="refreshMathBtn" title="New Problem">
+                                    <i class="fas fa-refresh"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="error-message" id="captchaError"></div>
+                        <div class="error-message" id="mathError"></div>
+                    </div>
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <span id="btnText">Send Message</span>
+                        <i class="fas fa-paper-plane" id="btnIcon"></i>
+                    </button>
+                    <div class="form-status" id="formStatus"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Alok Kumar Singh. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Modal for Certificates -->
+    
+    <!-- Modal for Blog Details -->
+    
+    <script src="script.js"></script>
+    <script>
+        // Remove old certificate modal code (no longer used)
+        
+        // Blog modal
+        document.querySelector('.view-blog-btn').addEventListener('click', () => {
+            const blogModal = document.getElementById('blog-modal');
+            blogModal.style.display = 'flex';
+        });
+
+        // Close modals
+        document.querySelectorAll('.close-modal').forEach(close => {
+            close.addEventListener('click', () => {
+                document.getElementById('blog-modal').style.display = 'none';
+            });
+        });
+
+        // Close on outside click
+        window.addEventListener('click', (e) => {
+            if (e.target === document.getElementById('blog-modal')) {
+                document.getElementById('blog-modal').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
